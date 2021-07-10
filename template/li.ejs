@@ -1,0 +1,13 @@
+            <li class="media mb-3 alert-warning ">
+  <div class="img-container--table-cell d-flex align-items-center">
+    <img src="<%= image_url %>" class="mr-3 lazyload" alt="<%= title %>" loading="lazy" />
+  </div>
+                <div class="media-body ml-3">
+                    <h5><%= title %></h5>
+                    <p>価格：<%= price %>円、ポイント：<%= point %></p>
+                    <p><%= contributor %></p>
+                    <p>出版社：<%= publisher %>、ASIN：<%= asin %></p>
+<p>カテゴリー：<%= category %></p>
+<a class="btn btn-warning" href="<%= url %>" role="button"  rel="noreferrer" target="_blank">Amazonで詳細を見る </a>
+                </div>
+            </li>
